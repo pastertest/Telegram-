@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 from database import DatabaseManager
 from handlers import CommandHandlers
 from config import BOT_TOKEN
-
+BOT_TOKEN = "7553801366:AAEm2NfyEtP2Qi0PJJCpGc1VPmhksxN7OAw"  # ⚠️ Risk: Token is now in your codebase
 logger = logging.getLogger(__name__)
 
 class CasinoBot:
